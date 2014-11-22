@@ -71,5 +71,3 @@ salary = 500,
 admin = 1,
 vote = false,
 hasLicense = true,
-})
-
