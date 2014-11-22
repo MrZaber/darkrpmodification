@@ -35,10 +35,10 @@ GAMEMODE.DefaultTeam = TEAM_CITIZEN
 Define which teams belong to civil protection
 Civil protection can set warrants, make people wanted and do some other police related things
 ---------------------------------------------------------------------------*/
-GAMEMODE.CivilProtection = {
-	[TEAM_POLICE] = true,
-	[TEAM_CHIEF] = true,
-	[TEAM_MAYOR] = true,
+GAMEMODE.StormTrooper = {
+	[TEAM_StormTrooper] = true,
+	[TEAM_StormTrooperCaptain] = true,
+	[TEAM_DarthSidious] = true,
 }
 
 /*---------------------------------------------------------------------------
