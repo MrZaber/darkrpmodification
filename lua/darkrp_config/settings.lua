@@ -28,7 +28,7 @@ GM.Config.allowsprays 					= true
 -- allowvehicleowning - Enable/disable whether people can own vehicles.
 GM.Config.allowvehicleowning 			= true
 -- allowvnocollide - Enable/disable the ability to no-collide a vehicle (for security).
-GM.Config.allowvnocollide 				= false
+GM.Config.allowvnocollide 				= true
 -- alltalk - Enable for global chat, disable for local chat.
 GM.Config.alltalk 						= false
 -- autovehiclelock - Enable/Disable automatic locking of a vehicle when a player exits it.
@@ -160,11 +160,11 @@ GM.Config.weaponCheckerHideNoLicense	= false
 Value settings
 */
 -- adminnpcs - Whether or not NPCs should be admin only. 0 = everyone, 1 = admin or higher, 2 = superadmin or higher, 3 = rcon only
-GM.Config.adminnpcs 					= 3
+GM.Config.adminnpcs 					= 1
 -- adminsents - Whether or not SENTs should be admin only. 0 = everyone, 1 = admin or higher, 2 = superadmin or higher, 3 = rcon only
 GM.Config.adminsents 					= 1
 -- adminvehicles - Whether or not vehicles should be admin only. 0 = everyone, 1 = admin or higher, 2 = superadmin or higher, 3 = rcon only
-GM.Config.adminvehicles 				= 3
+GM.Config.adminvehicles 				= 1
 -- adminweapons - Who can spawn weapons: 0: admins only, 1: supadmins only, 2: no one
 GM.Config.adminweapons					= 1
 -- arrestspeed - Sets the max arrest speed.
