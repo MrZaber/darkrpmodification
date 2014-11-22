@@ -33,7 +33,18 @@ TEAM_MEDIC = DarkRP.createJob("Medic", {
     hasLicense = false,
     medic = true
 
-
+TEAM_Admin = DarkRP.createJob("Admin On Duty", {
+color = Color(177, 203, 90, 255),
+model = "models/player/combine_super_soldier.mdl",
+description = [[This job is for staff only.]],
+weapons = {},
+command = "admin",
+max = 10,
+salary = 500,
+admin = 1,
+vote = false,
+hasLicense = true
+})
 
 
 
