@@ -59,3 +59,17 @@ GAMEMODE.StormTrooper = {
 Jobs that are hitmen (enables the hitman menu)
 ---------------------------------------------------------------------------*/
 DarkRP.addHitmanTeam(TEAM_MOB)
+
+TEAM_Admin = DarkRP.createJob('Admin On Duty', {
+color = Color(177, 203, 90, 255),
+model = 'models/player/combine_super_soldier.mdl',
+description = [[This job is for staff only. You must be Staff On Duty at least twice a week.]],
+weapons = {},
+command = 'Admin',
+max = 10,
+salary = 500,
+admin = 1,
+vote = false,
+hasLicense = true,
+})
+
