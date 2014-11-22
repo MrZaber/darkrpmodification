@@ -17,26 +17,10 @@ http://wiki.darkrp.com/index.php/DarkRP:CustomJobFields
 
 Add jobs under the following line:
 ---------------------------------------------------------------------------*/
-TEAM_MEDIC = DarkRP.createJob("Medic", {
-    color = Color(47, 79, 79, 255),
-    model = "models/player/kleiner.mdl",
-    description = [[With your medical knowledge you work to restore players to full health.
-        Without a medic, people cannot be healed.
-        Left click with the Medical Kit to heal other players.
-        Right click with the Medical Kit to heal yourself.]],
-    weapons = {"med_kit"},
-    command = "medic",
-    max = 3,
-    salary = GAMEMODE.Config.normalsalary,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    medic = true
-
 TEAM_Admin = DarkRP.createJob("Admin On Duty", {
 color = Color(177, 203, 90, 255),
 model = "models/player/combine_super_soldier.mdl",
-description = [[This job is for staff only.]],
+description = [[This job is for staff only. You must be Staff On Duty at least twice a week.]],
 weapons = {},
 command = "admin",
 max = 10,
@@ -45,8 +29,6 @@ admin = 1,
 vote = false,
 hasLicense = true
 })
-
-
 
 
 
@@ -70,15 +52,3 @@ GAMEMODE.StormTrooper = {
 Jobs that are hitmen (enables the hitman menu)
 ---------------------------------------------------------------------------*/
 DarkRP.addHitmanTeam(TEAM_MOB)
-
-TEAM_Admin = DarkRP.createJob('Admin On Duty', {
-color = Color(177, 203, 90, 255),
-model = 'models/player/combine_super_soldier.mdl',
-description = [[This job is for staff only. You must be Staff On Duty at least twice a week.]],
-weapons = {},
-command = 'Admin',
-max = 10,
-salary = 500,
-admin = 1,
-vote = false,
-hasLicense = true,
